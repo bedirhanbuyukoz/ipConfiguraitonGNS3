@@ -1,0 +1,22 @@
+Jun 10 13:35:50.694 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 10 13:35:50.694 HYPERVISOR: Started on IP = localhost, TCP port = 23205.
+Jun 10 13:35:51.173 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 10 13:35:51.173 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\bedir\GNS3\projects\bedirhanbuyukozv3\project-files\dynamips 
+Jun 10 13:35:51.173 GENERAL: working_dir=C:\Users\bedir\GNS3\projects\bedirhanbuyukozv3\project-files\dynamips
+Jun 10 13:35:51.173 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Jun 10 13:35:52.921 HYPERVISOR: exec_cmd: nio create_udp udp-9e335c85-b377-4b4f-a976-cf4a4b8d5d17 10001 127.0.0.1 10000 
+Jun 10 13:35:52.932 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-9e335c85-b377-4b4f-a976-cf4a4b8d5d17 
+Jun 10 13:35:52.975 HYPERVISOR: exec_cmd: nio create_udp udp-ba2a4d92-a1f5-47e9-9f4b-7057b40cbe73 10002 127.0.0.1 10003 
+Jun 10 13:35:52.981 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-ba2a4d92-a1f5-47e9-9f4b-7057b40cbe73 
+Jun 10 15:00:05.407 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub1 udp-9e335c85-b377-4b4f-a976-cf4a4b8d5d17 
+Jun 10 15:00:05.429 HYPERVISOR: exec_cmd: nio delete udp-9e335c85-b377-4b4f-a976-cf4a4b8d5d17 
+Jun 10 15:00:14.762 HYPERVISOR: exec_cmd: nio create_udp udp-402e8f05-1f15-4ce5-8144-fe77946d145f 10001 127.0.0.1 10000 
+Jun 10 15:00:14.763 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-402e8f05-1f15-4ce5-8144-fe77946d145f 
+Jun 10 15:04:56.544 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub1 udp-ba2a4d92-a1f5-47e9-9f4b-7057b40cbe73 
+Jun 10 15:04:56.556 HYPERVISOR: exec_cmd: nio delete udp-ba2a4d92-a1f5-47e9-9f4b-7057b40cbe73 
+Jun 10 15:05:11.402 HYPERVISOR: exec_cmd: nio create_udp udp-49fd7a13-9466-4cd3-a1b5-3460c872f89e 10002 127.0.0.1 10003 
+Jun 10 15:05:11.402 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-49fd7a13-9466-4cd3-a1b5-3460c872f89e 
+Jun 10 16:09:13.807 HYPERVISOR: exec_cmd: nio_bridge delete Hub1 
+Jun 10 16:09:13.857 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 10 16:09:14.233 HYPERVISOR: Stopped.
+Jun 10 16:09:14.233 GENERAL: reset done.

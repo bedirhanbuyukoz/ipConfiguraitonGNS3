@@ -1,0 +1,2 @@
+set pcname camera
+ip 10.10.10.98 10.10.10.97 27
